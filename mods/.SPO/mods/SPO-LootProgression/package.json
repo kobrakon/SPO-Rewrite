@@ -1,0 +1,9 @@
+{
+ "name": "LootProgression",
+ "author": "Kobrakon",
+ "version": "1.0.0",
+ "dependencies": {},
+ "license": "NCSA",
+ "akiVersion": ">2.3.1",
+ "main": "package.js"
+}

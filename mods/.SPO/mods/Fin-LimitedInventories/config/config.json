@@ -1,0 +1,37 @@
+{
+	"allow_barter_trades": true,
+		"show_unavailable_barters_as_zero_stock": false,
+		
+	"reduce_armor_durability": false,
+	
+	"condense_identical_items_into_one_stack": true,
+	
+	"price_multipliers" : {
+			"guns": 			2,
+			"ammo": 			3,
+			"throwables": 		4,
+			"vitalMods": 		1,
+			"optionalMods": 	3,
+			"armors": 			1,
+			"helmets": 			1,
+			"eyewear": 			1,
+			"backpack": 		1,
+			"magazine":			2,
+			"rig": 				1,
+			"headset": 			1,
+			"barter": 			2,
+			"melee": 			1,
+			"tech":				1,
+			"meds": 			1,
+			"food": 			1
+	},
+	
+	"I_am_using_a_mod_to_alter_trader_stock_and_want_FRET_to_play_nice_with_it": true,
+	"Use_mod_added_trader_settings_for_vanilla_traders": true,
+	
+	"new_trader_IDs_to_modify": [
+		"New IDs here",
+		"New IDs here",
+		"New IDs here"
+	]
+}
