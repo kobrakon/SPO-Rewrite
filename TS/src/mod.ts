@@ -135,44 +135,36 @@ class SPO implements IPostDBLoadMod
         craftingSkill.UniqueCraftsPerCycle = 1;
 
         dmrSkill.WeaponChamberAction = modConfig.DMR.WeaponChamberAction;
-	    dmrSkill.WeaponFixAction = modConfig.DMR.WeaponFixAction;
-		dmrSkill.WeaponReloadAction = modConfig.DMR.WeaponReloadAction;
-		dmrSkill.WeaponShotAction = modConfig.DMR.WeaponShotAction;
+	dmrSkill.WeaponFixAction = modConfig.DMR.WeaponFixAction;
+	dmrSkill.WeaponReloadAction = modConfig.DMR.WeaponReloadAction;
+	dmrSkill.WeaponShotAction = modConfig.DMR.WeaponShotAction;
 
         enduranceSkill.GainPerFatigueStack = modConfig.Endurance.GainPerFatigueStack;
-		enduranceSkill.MovementAction = modConfig.Endurance.MovementAction;
-		enduranceSkill.SprintAction = modConfig.Endurance.SprintAction;
+	enduranceSkill.MovementAction = modConfig.Endurance.MovementAction;
+	enduranceSkill.SprintAction = modConfig.Endurance.SprintAction;
 
         healthSkill.SkillProgress = modConfig.Health.SkillProgress;
 
         hideoutManagementSkill.ConsumptionReductionPerLevel = modConfig.HideoutManagement.ConsumptionReductionPerLevel;
-		hideoutManagementSkill.SkillBoostPercent = modConfig.HideoutManagement.SkillBoostPercent;
-		hideoutManagementSkill.SkillPointsPerAreaUpgrade = modConfig.HideoutManagement.SkillPointsPerAreaUpgrade;
-		hideoutManagementSkill.SkillPointsPerCraft = modConfig.HideoutManagement.SkillPointsPerCraft;
-		
-		hideoutEliteSlots.AirFilteringUnit.Container = modConfig.HideoutManagement.EliteSlots.AirFilteringUnit.Container;
-		hideoutEliteSlots.AirFilteringUnit.Slots = modConfig.HideoutManagement.EliteSlots.AirFilteringUnit.Slots;
-	
-		hideoutEliteSlots.BitcoinFarm.Container = modConfig.HideoutManagement.EliteSlots.BitcoinFarm.Container;
-		hideoutEliteSlots.BitcoinFarm.Slots = modConfig.HideoutManagement.EliteSlots.BitcoinFarm.Slots;
-		
-		hideoutEliteSlots.Generator.Container = modConfig.HideoutManagement.EliteSlots.Generator.Container;
-		hideoutEliteSlots.Generator.Slots = modConfig.HideoutManagement.EliteSlots.Generator.Slots;
-		
-		hideoutEliteSlots.WaterCollector.Container = modConfig.HideoutManagement.EliteSlots.WaterCollector.Container;
-		hideoutEliteSlots.WaterCollector.Slots = modConfig.HideoutManagement.EliteSlots.WaterCollector.Slots;
-		
-		hideoutSkillPointRate.AirFilteringUnit.PointsGained = modConfig.HideoutManagement.SkillPointsRate.AirFilteringUnit.PointsGained;
-		hideoutSkillPointRate.AirFilteringUnit.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.AirFilteringUnit.ResourceSpent;
-		
-		hideoutSkillPointRate.Generator.PointsGained = modConfig.HideoutManagement.SkillPointsRate.Generator.PointsGained;
-		hideoutSkillPointRate.Generator.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.Generator.ResourceSpent;
-		
-		hideoutSkillPointRate.SolarPower.PointsGained = modConfig.HideoutManagement.SkillPointsRate.SolarPower.PointsGained;
-		hideoutSkillPointRate.SolarPower.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.SolarPower.ResourceSpent;
-	
-		hideoutSkillPointRate.WaterCollector.PointsGained = modConfig.HideoutManagement.SkillPointsRate.WaterCollector.PointsGained;
-		hideoutSkillPointRate.WaterCollector.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.WaterCollector.ResourceSpent;
+	hideoutManagementSkill.SkillBoostPercent = modConfig.HideoutManagement.SkillBoostPercent;
+	hideoutManagementSkill.SkillPointsPerAreaUpgrade = modConfig.HideoutManagement.SkillPointsPerAreaUpgrade;
+	hideoutManagementSkill.SkillPointsPerCraft = modConfig.HideoutManagement.SkillPointsPerCraft;	
+	hideoutEliteSlots.AirFilteringUnit.Container = modConfig.HideoutManagement.EliteSlots.AirFilteringUnit.Container;
+	hideoutEliteSlots.AirFilteringUnit.Slots = modConfig.HideoutManagement.EliteSlots.AirFilteringUnit.Slots;	
+	hideoutEliteSlots.BitcoinFarm.Container = modConfig.HideoutManagement.EliteSlots.BitcoinFarm.Container;
+	hideoutEliteSlots.BitcoinFarm.Slots = modConfig.HideoutManagement.EliteSlots.BitcoinFarm.Slots;
+	hideoutEliteSlots.Generator.Container = modConfig.HideoutManagement.EliteSlots.Generator.Container;
+	hideoutEliteSlots.Generator.Slots = modConfig.HideoutManagement.EliteSlots.Generator.Slots;
+	hideoutEliteSlots.WaterCollector.Container = modConfig.HideoutManagement.EliteSlots.WaterCollector.Container;
+	hideoutEliteSlots.WaterCollector.Slots = modConfig.HideoutManagement.EliteSlots.WaterCollector.Slots;
+	hideoutSkillPointRate.AirFilteringUnit.PointsGained = modConfig.HideoutManagement.SkillPointsRate.AirFilteringUnit.PointsGained;
+	hideoutSkillPointRate.AirFilteringUnit.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.AirFilteringUnit.ResourceSpent;
+	hideoutSkillPointRate.Generator.PointsGained = modConfig.HideoutManagement.SkillPointsRate.Generator.PointsGained;
+	hideoutSkillPointRate.Generator.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.Generator.ResourceSpent;
+	hideoutSkillPointRate.SolarPower.PointsGained = modConfig.HideoutManagement.SkillPointsRate.SolarPower.PointsGained;
+	hideoutSkillPointRate.SolarPower.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.SolarPower.ResourceSpent;
+	hideoutSkillPointRate.WaterCollector.PointsGained = modConfig.HideoutManagement.SkillPointsRate.WaterCollector.PointsGained;
+	hideoutSkillPointRate.WaterCollector.ResourceSpent = modConfig.HideoutManagement.SkillPointsRate.WaterCollector.ResourceSpent;
 
         immunitySkill.HealthNegativeEffect = modConfig.Immunity.HealthNegativeEffect;
         immunitySkill.ImmunityMiscEffects = modConfig.Immunity.ImmunityMiscEffects;
@@ -208,12 +200,12 @@ class SPO implements IPostDBLoadMod
         recoilControlSkill.RecoilAction = modConfig.RecoilControl.RecoilAction;
 
         searchSkill.FindAction = modConfig.Search.FindAction;
-		searchSkill.SearchAction = modConfig.Search.SearchAction;
+	searchSkill.SearchAction = modConfig.Search.SearchAction;
 
         shotgunSkill.WeaponChamberAction = modConfig.Shotgun.WeaponChamberAction;
-		shotgunSkill.WeaponFixAction = modConfig.Shotgun.WeaponFixAction;
-		shotgunSkill.WeaponReloadAction = modConfig.Shotgun.WeaponReloadAction;
-		shotgunSkill.WeaponShotAction = modConfig.Shotgun.WeaponShotAction;
+	shotgunSkill.WeaponFixAction = modConfig.Shotgun.WeaponFixAction;
+	shotgunSkill.WeaponReloadAction = modConfig.Shotgun.WeaponReloadAction;
+	shotgunSkill.WeaponShotAction = modConfig.Shotgun.WeaponShotAction;
 
         sniperSkill.WeaponChamberAction = modConfig.Sniper.WeaponChamberAction;
         sniperSkill.WeaponFixAction = modConfig.Sniper.WeaponFixAction;
